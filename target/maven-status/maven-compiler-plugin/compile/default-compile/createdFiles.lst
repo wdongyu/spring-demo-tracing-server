@@ -1,7 +1,0 @@
-org/springframework/samples/demo/tracing/adapter/CustomServerRequestAdapter.class
-org/springframework/samples/demo/tracing/interceptor/CustomBean.class
-org/springframework/samples/demo/tracing/webmvc/WebTracingConfiguration.class
-org/springframework/samples/demo/tracing/interceptor/CustomServletHandlerInterceptor$1.class
-org/springframework/samples/demo/tracing/interceptor/CustomServletHandlerInterceptor.class
-org/springframework/samples/demo/tracing/interceptor/CustomServletHandlerInterceptor$Builder.class
-org/springframework/samples/demo/tracing/ZipkinServer.class

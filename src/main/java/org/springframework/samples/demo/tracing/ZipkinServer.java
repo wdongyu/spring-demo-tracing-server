@@ -20,15 +20,27 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import zipkin.server.EnableZipkinServer;
 
+import org.apache.log4j.Logger;
+import java.util.Arrays;
+import java.net.URLClassLoader;
+import java.security.CodeSource;
+import java.security.ProtectionDomain;
+
 /**
- * @author Antoine Rey
+ * @author wdongyu
  */
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableZipkinServer
 public class ZipkinServer {
 
+    private static final Logger logger = Logger.getLogger("test");
+
     public static void main(String[] args) {
+        //logger.info(Arrays.toString(((URLClassLoader)ZipkinServer.class.getClassLoader()).getURLs()));
+        //ProtectionDomain pd = EnableZipkinServer.class.getProtectionDomain();
+        //CodeSource cs = pd.getCodeSource();
+        //logger.info(cs.getLocation());
         SpringApplication.run(ZipkinServer.class, args);
     }
 }

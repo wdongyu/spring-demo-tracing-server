@@ -1,5 +1,0 @@
-/Users/wangdongyu/Documents/114.212.86.144/spring-demo-microservices/spring-demo-tracing-server/src/main/java/org/springframework/samples/demo/tracing/interceptor/CustomBean.java
-/Users/wangdongyu/Documents/114.212.86.144/spring-demo-microservices/spring-demo-tracing-server/src/main/java/org/springframework/samples/demo/tracing/webmvc/WebTracingConfiguration.java
-/Users/wangdongyu/Documents/114.212.86.144/spring-demo-microservices/spring-demo-tracing-server/src/main/java/org/springframework/samples/demo/tracing/interceptor/CustomServletHandlerInterceptor.java
-/Users/wangdongyu/Documents/114.212.86.144/spring-demo-microservices/spring-demo-tracing-server/src/main/java/org/springframework/samples/demo/tracing/ZipkinServer.java
-/Users/wangdongyu/Documents/114.212.86.144/spring-demo-microservices/spring-demo-tracing-server/src/main/java/org/springframework/samples/demo/tracing/adapter/CustomServerRequestAdapter.java
